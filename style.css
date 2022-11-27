@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alata", "Josefin Sans";
+}
+
+.mainSection {
+  min-height: 70vh;
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainSection .container {
+  width: 90%;
+  margin: 0px auto;
+}
+.mainSection .container .navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.mainSection .container .navBar .navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.mainSection .container .navBar .navList .element {
+  color: white;
+  position: relative;
+  font-weight: 400;
+}
+.mainSection .container .navBar .navList .element .line {
+  width: 40%;
+  height: 3px;
+  background: white;
+  margin: 10px auto;
+  border-radius: 25px;
+  display: none;
+  position: absolute;
+  left: 30%;
+}
+.mainSection .container .navBar .navList .element:hover {
+  cursor: pointer;
+}
+.mainSection .container .navBar .navList .element:hover .line {
+  display: block;
+}
+.mainSection .container .text {
+  color: white;
+  width: 40%;
+  height: 30vh;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+  padding: 15px;
+  margin-top: 5%;
+}
+
+.firstSection {
+  padding: 150px 0;
+}
+.firstSection .container {
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+}
+.firstSection .container img {
+  width: 60%;
+}
+.firstSection .container .text {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 50%;
+  height: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.firstSection .container .text h1 {
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+.firstSection .container .text p {
+  color: grey;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.secondSection {
+  margin-bottom: 150px;
+}
+.secondSection .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.secondSection .container .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.secondSection .container .header h1 {
+  font-size: 42px;
+}
+.secondSection .container .header button {
+  width: 200px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 18px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.secondSection .container .header button:hover {
+  background-color: black;
+  color: white;
+}
+.secondSection .container .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.secondSection .container .cards .card {
+  width: 22%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  margin: 25px;
+  cursor: pointer;
+  padding: 50px;
+}
+.secondSection .container .cards .card h1 {
+  font-size: 56px;
+}
+.secondSection .container .cards .card1 {
+  background-image: url(./images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+}
+.secondSection .container .cards .card2 {
+  background-image: url(./images/desktop/image-night-arcade.jpg);
+  background-size: cover;
+}
+.secondSection .container .cards .card3 {
+  background-image: url(/images/desktop/image-soccer-team.jpg);
+  background-size: cover;
+}
+.secondSection .container .cards .card4 {
+  background-image: url(/images/desktop/image-grid.jpg);
+  background-size: cover;
+}
+.secondSection .container .cards .card5 {
+  background-image: url(/images/desktop/image-from-above.jpg);
+  background-size: cover;
+}
+.secondSection .container .cards .card6 {
+  background-image: url(/images/desktop//image-pocket-borealis.jpg);
+  background-size: cover;
+}
+.secondSection .container .cards .card7 {
+  background-image: url(/images/desktop/image-curiosity.jpg);
+  background-size: cover;
+}
+.secondSection .container .cards .card8 {
+  background-image: url(/images/desktop/image-fisheye.jpg);
+  background-size: cover;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding-top: 50px;
+}
+footer .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+footer .container .firstDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .firstDiv .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .firstDiv .social img {
+  margin: 10px;
+  cursor: pointer;
+}
+footer .container .secondDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+footer .container .secondDiv .list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+footer .container .secondDiv .list li {
+  cursor: pointer;
+}
+footer .container .secondDiv small {
+  color: grey;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
